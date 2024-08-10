@@ -1,72 +1,29 @@
 # End-to-end-Medical-Chatbot-using-Llama2
 
-# How to run?
-### STEPS:
+Welcome to the Medical Chatbot repository! This project aims to develop a conversational agent capable of providing medical information and guidance based on "The Gale Encyclopedia of Medicine."
 
-Clone the repository
+## Features:
+### Medical Information: 
+  Offers general medical information on a wide range of health conditions, symptoms, and treatments.
+### Symptom Checker: 
+  Helps users identify potential health issues based on their symptoms.
+### Guidance on Next Steps: 
+  Suggests whether a user should seek medical attention based on their symptoms.
+### User-Friendly Interface: 
+  Designed for easy interaction with a clear and concise response format.
 
-```bash
-Project repo: https://github.com/
-```
+## Usage
+  Once the chatbot is running, you can interact with it via the command line or a web interface (if applicable).   Type your symptoms or questions, and the chatbot will provide relevant information and guidance.
 
-### STEP 01- Create a conda environment after opening the repository
+## Data Source
+  The chatbot's knowledge base is primarily derived from "The Gale Encyclopedia of Medicine," a comprehensive resource offering detailed information on a wide array of medical conditions, treatments, and procedures. The data has been curated and structured to ensure that the chatbot provides accurate and reliable information.
 
-```bash
-conda create -n mchatbot python=3.8 -y
-```
+## Disclaimer:
+### Important: 
+    This chatbot is designed for informational purposes only and is not a substitute for professional medical advice, diagnosis, or treatment. Always consult with a qualified healthcare provider for any medical concerns or conditions.
 
-```bash
-conda activate mchatbot
-```
+## License:
+  This project is licensed under the MIT License. See the LICENSE file for more details.
 
-### STEP 02- install the requirements
-```bash
-pip install -r requirements.txt
-```
-
-
-### Create a `.env` file in the root directory and add your Pinecone credentials as follows:
-
-```ini
-PINECONE_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-PINECONE_API_ENV = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-```
-
-
-### Download the quantize model from the link provided in model folder & keep the model in the model directory:
-
-```ini
-## Download the Llama 2 Model:
-
-llama-2-7b-chat.ggmlv3.q4_0.bin
-
-
-## From the following link:
-https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main
-```
-
-```bash
-# run the following command
-python store_index.py
-```
-
-```bash
-# Finally run the following command
-python app.py
-```
-
-Now,
-```bash
-open up localhost:
-```
-
-
-### Techstack Used:
-
-- Python
-- LangChain
-- Flask
-- Meta Llama2
-- Pinecone
-
+# Thank you!!!
 
