@@ -20,7 +20,7 @@ Welcome to the Medical Chatbot repository! This project aims to develop a conver
 
 ## Disclaimer:
 ### Important: 
-    This chatbot is designed for informational purposes only and is not a substitute for professional medical advice, diagnosis, or treatment. Always consult with a qualified healthcare provider for any medical concerns or conditions.
+  This chatbot is designed for informational purposes only and is not a substitute for professional medical advice, diagnosis, or treatment. Always consult with a qualified healthcare provider for any medical concerns or conditions.
 
 ## License:
   This project is licensed under the MIT License. See the LICENSE file for more details.
